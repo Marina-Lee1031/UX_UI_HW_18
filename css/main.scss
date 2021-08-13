@@ -14,9 +14,19 @@ body {
     color: black;
     font-size: 16px;
 }
+span {
+    color: white;
+}
 .secondary-nav {
     text-decoration: none;
 }
-.logo {
-    text-decoration: none;
+nav {
+    display: none;
+}
+.container {
+    display: flex;
+    place-content: space-between;
+}
+.mobile-menu {
+    cursor: pointer;
 }

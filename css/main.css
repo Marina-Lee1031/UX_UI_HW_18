@@ -1,5 +1,36 @@
 body {
-  background-color: #B4BDC8;
+  background-color: white;
   margin: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+.navbar {
+  background:#B4BDC8;
+  padding: 20px;
+}
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+span {
+  color: white;
+}
+.secondary-nav {
+  text-decoration: none;
+}
+nav {
+  display: none;
+}
+.container {
+  display: flex;
+  place-content: space-between;
+}
+.mobile-menu {
+  cursor: pointer;
+}
+
+.mobile-menu-x {
+  
 }
 /*# sourceMappingURL=main.css.map */
