@@ -110,6 +110,8 @@ h2 {
   margin-top: 15px;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
+
+
 .button {
   font-family: 'Elsie Swash Caps';
   border: none;
@@ -128,6 +130,7 @@ h2 {
   height: 50px;
   border-radius: 4px;
 }
+
 .button:hover {
   background-color: #4F5265;
   color: black;
