@@ -7,82 +7,56 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap" rel="stylesheet">
     <title>Marina Lee Portfolio</title>
 </head>
 <body>
+    <div class="boxed">
     <div class="navbar">
         <div class="container">
             <a class="logo" href="#">Marina<span>Lee</span></a>
-
-            <img id="mobile-cta"class="mobile-menu" src="images/Hamburger Menu.png" alt="Open Naviation">
-
-            <nav>
-                <img id="mobile-x"class="mobile-menu-x" src="images/x.png" alt="Close Navigation">
-                <ul class="primary-nav">
-                    <li class="current"><a href="#">ABOUT</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">SKILLS</a></li>
+                <ul id="horizontal-list">
+                    <li class="mainAbout"><a href="#">ABOUT</a></li>
+                    <li class="mainWork"><a href="#">WORK</a></li>
+                    <li class="mainSkills"><a href="#">SKILLS</a></li>
+                    <li class="mainContact"><a href="#">CONTACT</a></li>
                 </ul>
-
-                <ul class="secondary-nav">
-                    <li class="contact-cta"><a href="#">CONTACT</a></li>
-                </ul>
-            </nav>
         </div>
     </div>
+
+    <hr>
+
     <section class="hero">
-        <div class="container">
-            <div class="left-col">
-                <p class="subhead">WELCOME</p>
-                <h1>Marina Lee</h1>
-                <h2>UX UI DESIGN</h2>
-                <div class="hero-cta">
-                    <a href="#" class="primary-cta">VIEW CASE STUDIES</a>
-                </div>
-            </div>
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:60px">HELLO I'M MARINA.</h1>
+          <h3 style="font-size:60px"> USER INTERFACE USER EXPERIENCE DESIGNER. </h3>
         </div>
+      </div>
     </section>
-
-    <sections class="features-section">
+    <div class="bottom-box" style="position:relative; left: -50px; top: 2px; background-color: #282828">
+        <h2 style="font-size:60px">PROJECTS</h2>
+    <sections class="projects-container">
         <div class="container">
-            <ul>
-                <li>USER RESEARCH</li>
-                <li>PROTOTYPING</li>
-                <li>INFORMATION ARCHITECTURE</li>
-            </ul>
-
-            <img src="#" alt="Skills image">
+            <button class="button button1">01</button>
+            <button class="button button2">02</button>
+            <button class="button button3">03</button>
         </div>
     </sections>
-    <section class="about">
-        <div class="container">
-            <h1> ABOUT ME </h1>
-            <ul>
-                <li>
-                    <img src="Me Image.png" alt="ABOUT ME IMG">
-                    <p> About Me</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="contact-section">
-        <div class="containter">
-            <div class="contact-left">
-                <h2> Contact </h2>
-                <form action="">
-                    <label for="name">Name</label>
-                    <input type="text"> id="name" name="name">
-
-                    <label for="email">Email</label>
-                    <input type="email"> id="email" name="email">
-
-                    <label for="message"Message></label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-                    <input type="submit"> class="send-message-cta" value="Send message">
-                </form>
-            </div>
-        </div>
-    </section>
+    </div>  
+</div>
+<section class="social-media">
+    <div class="social-media-icons">
+        <img id="webIcon"class="web-icon" src="images/Web Icon.png" alt="WebsiteIcon"><span2>LINKEDIN</span2>
+        <img id="phoneIcon"class="phone-icon" src="images/Phone Icon.png" alt="PhoneNumberIcon"><span2>EMAIL</span2>
+        <img id="emailIcon"class="email-icon" src="images/Email Icon.png" alt="EmailAddressIcon"><span2>PHONE NUMBER</span2>
+   
+    </div>
+</section>
 </body>
 </html>
